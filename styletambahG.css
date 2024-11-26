@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: url("industrialpark4.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 35px;
+}
+
+.container.main {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h3 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.btn-outline-secondary, .btn-outline-primary {
+    margin-bottom: 20px;
+}
+
+.form-control-sm {
+    border-radius: 4px;
+}
